@@ -1,0 +1,17 @@
+{application, ws_client,
+ [{description, "An OTP library"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    ssl,
+    crypto,
+    inets
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache-2.0"]},
+  {links, []}
+ ]}.
